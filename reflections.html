@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Concepts</title>
+    <style>
+        body {
+            background-color: lavender;
+            color: black;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: black;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        b {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Algorithm Concepts</h1>
+
+    <h2>1. What are the kinds of problems we see in nature?</h2>
+    <ul>
+        <li><b>Iteration:</b> Problems requiring repetitive actions, such as population growth models or repeated calculations in physical simulations.</li>
+        <li><b>Recursion:</b> Problems that involve self-similar structures or repeated subdivisions, such as fractals, Fibonacci sequences, or recursive tree traversal.</li>
+        <li><b>Backtracking:</b> Problems that need exploration of possibilities to find a solution, such as solving a maze, generating permutations, or puzzles like the N-Queens problem.</li>
+    </ul>
+
+    <h2>2. What is space and time efficiency? Why are they important?</h2>
+    <p>
+        <b>Space Efficiency:</b> Measures the memory required by an algorithm to solve a problem. It is crucial for handling large datasets or operating on memory-constrained systems.
+    </p>
+    <p>
+        <b>Time Efficiency:</b> Measures how quickly an algorithm runs relative to its input size. It is essential for reducing computation time and improving responsiveness.
+    </p>
+    <p><b>Classes of Problems:</b></p>
+    <ul>
+        <li><b>P (Polynomial Time):</b> Solvable in reasonable time, e.g., sorting.</li>
+        <li><b>NP (Non-deterministic Polynomial Time):</b> Verifiable in polynomial time but may not be easily solvable, e.g., the traveling salesman problem.</li>
+    </ul>
+    <p><b>Orders of Growth:</b></p>
+    <ul>
+        <li>Constant</li>
+        <li>Logarithmic</li>
+        <li>Linear</li>
+        <li>Quadratic</li>
+        <li>Exponential</li>
+    </ul>
+
+    <h2>3. Takeaways from Chapter 2 Design Principles:</h2>
+    <ul>
+        <li><b>Divide and Conquer:</b> Split the problem into smaller parts, solve independently, and combine results (e.g., Merge Sort).</li>
+        <li><b>Greedy Algorithms:</b> Make locally optimal choices at each step to find a global solution (e.g., Kruskal’s MST).</li>
+        <li><b>Dynamic Programming:</b> Solve overlapping subproblems by storing results (e.g., Fibonacci numbers, Knapsack problem).</li>
+        <li><b>Backtracking:</b> Explore all possible solutions and backtrack when encountering dead ends (e.g., Sudoku Solver).</li>
+        <li><b>Brute Force:</b> Try all possible solutions, effective for small problem sizes.</li>
+    </ul>
+
+    <h2>4. Hierarchical Data and Optimization with Trees:</h2>
+    <ul>
+        <li><b>Tree:</b> Basic hierarchical structure used for representing parent-child relationships.</li>
+        <li><b>Binary Search Tree (BST):</b> Allows fast lookups, insertions, and deletions.</li>
+        <li><b>AVL Tree:</b> Self-balancing BST to ensure operations.</li>
+        <li><b>2-3 Tree:</b> A multi-way balanced search tree for efficient database indexing.</li>
+        <li><b>Red-Black Tree:</b> Balanced BST ensuring operations, widely used in associative containers like maps.</li>
+        <li><b>Heap:</b> A binary tree used for efficient priority queue operations.</li>
+        <li><b>Trie:</b> Optimized for string storage and search, useful in autocomplete systems.</li>
+    </ul>
+
+    <h2>5. Array Query Algorithms and Applications:</h2>
+    <p><b>Need:</b> Arrays are fundamental data structures for organizing and querying data.</p>
+    <p><b>Algorithms:</b></p>
+    <ul>
+        <li>Prefix Sum: Efficient range sum queries.</li>
+        <li>Binary Search: Fast element lookup.</li>
+        <li>Sliding Window: Optimized range processing.</li>
+    </ul>
+    <p><b>Applications:</b> Search engines, data analytics, and game development.</p>
+
+    <h2>6. Difference between Trees and Graphs:</h2>
+    <ul>
+        <li><b>Trees:</b>
+            <ul>
+                <li>Hierarchical structure with one root.</li>
+                <li>Applications: File systems, decision-making processes.</li>
+                <li>Traversals: Preorder, Inorder, Postorder.</li>
+            </ul>
+        </li>
+        <li><b>Graphs:</b>
+            <ul>
+                <li>Generalized structure with vertices and edges.</li>
+                <li>Applications: Social networks, shortest path problems.</li>
+                <li>Traversals: Breadth-First Search (BFS), Depth-First Search (DFS).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>7. Sorting and Searching Algorithms:</h2>
+    <p><b>Sorting:</b></p>
+    <ul>
+        <li>Bubble Sort: Simple but inefficient.</li>
+        <li>Merge Sort: Divide and conquer.</li>
+        <li>Quick Sort: Partitioning, on average.</li>
+    </ul>
+    <p><b>Searching:</b></p>
+    <ul>
+        <li>Linear Search: Scans all elements.</li>
+        <li>Binary Search: Works on sorted data.</li>
+    </ul>
+    <p><b>Real-World Connections:</b></p>
+    <ul>
+        <li><b>Sorting:</b> Organizing data for efficient retrieval (e.g., databases).</li>
+        <li><b>Searching:</b> Used in text processing, gaming, and web searches.</li>
+    </ul>
+   <footer>
+        &copy; 2024 Sangini Shee. All Rights Reserved.
+    </footer>
+</body>
+</html>
